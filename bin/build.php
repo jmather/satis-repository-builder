@@ -73,7 +73,7 @@ $repo['require'] = $versions;
 file_put_contents($build_dir.'/src/config.json', json_encode($repo));
 
 if (!is_dir($base_dir.'/satis')) {
-    passthru($base_dir.'/composer.phar create-project composer/satis --stability=dev --no-interaction');
+    passthru($base_dir.'/composer.phar create-project composer/satis --stability=dev --no-interaction satis');
 }
 
 passthru($base_dir.'/satis/bin/satis build '.$build_dir.'/src/config.json '.$build_dir.'/dist');
