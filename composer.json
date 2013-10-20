@@ -1,0 +1,10 @@
+{
+    "config": {
+        "bin-dir": "bin/",
+        "notify-on-install": false
+    },
+    "require": {
+        "aws/aws-sdk-php": "dev-master"
+    },
+    "minimum-stability": "beta"
+}
