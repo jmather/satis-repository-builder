@@ -1,0 +1,5 @@
+build/
+vendor/
+config.json
+satis/
+composer.phar
